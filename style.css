@@ -1,0 +1,583 @@
+@charset "utf-8"
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-color: rgb(10, 10, 68);
+
+}
+
+.geral {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 100%;
+    width: 90vh;
+    background-image: linear-gradient(to right, rgb(45, 109, 146), rgb(17, 54, 71));
+    border-radius: 10px;
+    margin: 20px;
+    padding-top: 20px;
+    color: azure;
+}
+
+legend {
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+    border: solid rgb(31, 31, 97);
+    ;
+    background-color: rgb(31, 31, 97);
+}
+
+
+
+.secao1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 290px;
+    width: 570px;
+    font-size: larger;
+
+}
+
+.label {
+    font-size: larger;
+
+}
+
+.inputtxt {
+    width: 400px;
+    height: 25px;
+    margin: 10px;
+    background-color: rgb(245, 232, 208);
+    text-transform: uppercase;
+
+}
+
+.tel,
+.date {
+    margin: 10px;
+    height: 25px;
+    background-color: rgb(245, 232, 208)
+}
+
+.secao2 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    font-size: larger;
+
+
+}
+
+.sexo {
+    font-size: 30px;
+    padding: 15px;
+}
+
+.la {
+    font-size: 30px;
+    padding: 15px;
+
+
+}
+
+.li {
+    margin: 1px;
+
+}
+
+
+
+.secao3 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    font-size: larger;
+
+}
+
+.ll {
+    font-size: larger;
+    margin: 5px;
+}
+
+.es {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+
+
+}
+
+.select {
+    height: 40px;
+    margin: 10px;
+    background-color: rgb(245, 232, 208);
+}
+
+.city {
+    width: 200px;
+    height: 22px;
+    background-color: rgb(245, 232, 208);
+    text-transform: uppercase;
+}
+
+.end {
+    width: 400px;
+    height: 22px;
+    background-color: rgb(245, 232, 208);
+    text-transform: uppercase;
+}
+
+
+.bt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+button {
+    border: none;
+    background-color: rgb(31, 31, 97);
+    color: azure;
+    font-size: larger;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+}
+
+button:hover {
+    background-color: rgb(15, 15, 68);
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+
+    legend {
+        font-size: 15px;
+    }
+
+    .container {
+        height: auto;
+        width: 90%;
+        margin: auto;
+
+
+
+    }
+
+    .secao1 {
+        width: auto;
+        height: auto;
+        margin: auto;
+
+    }
+
+
+
+    .label {
+        font-size: larger;
+
+    }
+
+    .inputtxt {
+        height: 25px;
+        width: 90%;
+    }
+
+    .tel,
+    .date {
+        height: 25px;
+        width: auto;
+    }
+
+
+    .secao2 {
+        height: 150px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+
+    }
+
+    .sexo,
+    .la {
+
+        font-size: 22px;
+    }
+
+
+    .secao3 {
+        width: auto;
+        height: auto;
+        margin: auto;
+
+    }
+
+
+    .ll {
+        width: auto;
+        height: auto;
+    }
+
+    .es {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: larger;
+
+
+    }
+
+    .select {
+        height: 40px;
+        margin: 10px;
+    }
+
+
+    .city {
+        width: auto;
+        height: 25px;
+    }
+
+    .end {
+        width: 90%;
+        height: 25px;
+    }
+
+
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+
+
+    legend {
+        font-size: 15px;
+    }
+
+    .container {
+        height: auto;
+        width: 90%;
+        margin: auto;
+
+
+
+    }
+
+    .secao1 {
+        width: auto;
+        height: auto;
+        margin: auto;
+
+    }
+
+
+
+    .label {
+        font-size: larger;
+
+    }
+
+    .inputtxt {
+        height: 25px;
+        width: 90%;
+    }
+
+    .tel,
+    .date {
+        height: 25px;
+        width: auto;
+    }
+
+
+    .secao2 {
+        height: 150px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .sexo,
+    .la {
+
+        font-size: 22px;
+    }
+
+
+    .secao3 {
+        width: auto;
+        height: auto;
+        margin: auto;
+
+    }
+
+
+
+    .ll {
+        width: auto;
+        height: auto;
+    }
+
+    .es {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: larger;
+
+
+    }
+
+    .select {
+        height: 40px;
+        margin: 10px;
+    }
+
+    .city {
+        width: auto;
+        height: 25px;
+    }
+
+    .end {
+        width: 90%;
+        height: 25px;
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 381px) and (max-width: 760px) {
+
+
+    legend {
+        font-size: 15px;
+    }
+
+    .container {
+        height: auto;
+        width: 90%;
+        margin: auto;
+
+    }
+
+    .secao1 {
+        width: auto;
+        height: auto;
+        margin: auto;
+
+    }
+
+
+
+    .label {
+        font-size: larger;
+
+    }
+
+    .inputtxt {
+        height: 25px;
+        width: 90%;
+    }
+
+    .tel,
+    .date {
+        height: 25px;
+        width: auto;
+    }
+
+
+    .secao2 {
+        height: 150px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .sexo,
+    .la {
+
+        font-size: 22px;
+    }
+
+    .secao3 {
+        width: auto;
+        height: auto;
+        margin: auto;
+
+    }
+
+
+
+    .ll {
+        width: auto;
+        height: auto;
+    }
+
+    .es {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: larger;
+
+
+    }
+
+    .select {
+        height: 40px;
+        margin: 10px;
+    }
+
+    .city {
+        width: auto;
+        height: 25px;
+    }
+
+    .end {
+        width: 90%;
+        height: 25px;
+    }
+
+
+
+}
+
+@media screen and (min-width: 761px) and (max-width: 960px) {
+
+
+    legend {
+        font-size: 15px;
+    }
+
+    .container {
+        height: auto;
+        width: 90%;
+        margin: auto;
+
+    }
+
+    .secao1 {
+        width: auto;
+        height: auto;
+        margin: auto;
+
+    }
+
+
+
+    .label {
+        font-size: larger;
+
+    }
+
+    .inputtxt {
+        height: 25px;
+        width: 90%;
+    }
+
+    .tel,
+    .date {
+        height: 25px;
+        width: auto;
+    }
+
+
+    .secao2 {
+        height: 150px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .sexo,
+    .la {
+
+        font-size: 22px;
+    }
+
+    .secao3 {
+        width: auto;
+        height: auto;
+        margin: auto;
+
+    }
+
+
+
+    .ll {
+        width: auto;
+        height: auto;
+    }
+
+    .es {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: larger;
+
+
+    }
+
+    .select {
+        height: 40px;
+        margin: 10px;
+    }
+
+    .city {
+        width: auto;
+        height: 25px;
+    }
+
+    .end {
+        width: 90%;
+        height: 25px;
+    }
+
+
+
+}

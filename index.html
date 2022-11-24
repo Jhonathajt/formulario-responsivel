@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+
+
+</head>
+
+<body>
+    <div class="geral">
+        <fieldset class="container">
+            <legend><b><strong>FORMULÁRIO DE CADASTRO</strong></b></legend>
+            <form>
+                <section class="secao1">
+
+                    <label class="label" for="nome"><strong>Nome Completo</strong></label>
+                    <input class="inputtxt" type="text" name="nome" id="nome" placeholder="nome completo" autofocus
+                        autocomplete="on" required>
+
+                    <label class="label" for="email"><strong>Email</strong></label>
+                    <input class="inputtxt" type="email" name="email" id="email" placeholder="email" required>
+
+                    <label class="label" for="tel"><strong>Telefone</strong></label>
+                    <input class="tel" type="number" name="tel" id="tel" placeholder="telefone" required>
+
+                    <label class="label" for="data"><strong>Data nascimento</strong></label>
+                    <input class="date" type="date" name="data" id="data" required>
+
+                </section>
+
+                <section class="secao2">
+                    <label class="sexo" for="Sexo">
+                        <trong>Sexo:</trong>
+                    </label>
+
+                    <label class="la" for="m">Masculino <input class="li" type="radio" id="m" name="m" value="m"
+                            required></label>
+                    <label class="la" for="f">Feminino <input class="li" type="radio" id="f" name="m" value="f"
+                            required></label>
+
+
+                </section>
+
+                <section class="secao3">
+                    <label class="es" for="es">Estado
+                        <select class="select" name="es" id="es">
+                            <option>AC</option>
+                            <option>AL</option>
+                            <option>AP </option>
+                            <option>BA </option>
+                            <option>CE </option>
+                            <option>DF </option>
+                            <option>ES </option>
+                            <option>GO </option>
+                            <option>MT </option>
+                            <option>MS </option>
+                            <option>MG </option>
+                            <option>PA </option>
+                            <option>PR </option>
+                            <option>PE </option>
+                            <option>PI </option>
+                            <option>RJ </option>
+                            <option>RN </option>
+                            <option>RS </option>
+                            <option>RO </option>
+                            <option>RR </option>
+                            <option>SC </option>
+                            <option selected>SP </option>
+                            <option>SE </option>
+                            <option>TO </option>
+                        </select>
+                    </label>
+
+                    <label class="ll" for="cidade"><strong>Cidade</strong></label>
+                    <input class="city" type="text" name="nome" id="cidade" placeholder="cidade" required>
+                    <label class="ll" for="endereco"><strong>Endereço</strong></label>
+                    <input class="end" type="text" name="nome" id="endereco" placeholder="endereço" required>
+
+                </section>
+
+                <div class="bt">
+                    <button>enviar</button>
+                </div>
+
+
+            </form>
+        </fieldset>
+    </div>
+</body>
+
+</html>
